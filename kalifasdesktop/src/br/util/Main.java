@@ -20,7 +20,7 @@ public class Main {
         jv.setCep("4");
         jv.setEnderecoEntrega("Rua da apz");
         jv.setEnderecoMoradia("rua da apaaa");
-        jv.setNome("JV");
+        jv.setNome("pedro luis");
         jv.setProximidades("clemir");
         jv.setTelefone("88");
         jv.setSenha("123");
