@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body{
+	background:#ffdfbf;
+	}
+
+
+/* Menu de navegação */
+
+	#nav{
+		height:30px;
+		width:100%;
+		background-color:#FFFFFF;
+		margin-top:-8px;
+		margin-left:-8px;
+		overflow:hidden;
+	}
+	
+	#nav ul {
+		margin:auto;
+		padding:0;
+		list-style:none;
+		width:400px;
+		height:auto;
+		
+	}
+	
+	#nav ul li{
+		float: left;
+		font: 13px sans-serif;
+	}
+	
+	
+	#nav ul li a{
+		color:#990000;
+		text-decoration:none;
+		padding:6px;
+		display:block;
+	}
+	
+	#nav ul li:hover {
+		background:#eee;
+	}
+	
+	
+/* Barra de Menus */
+	#barra_menu{
+		height:80px;
+		width:100%;
+		background-color:#990000;
+		margin-top:0px;
+		margin-left:-8px;	
+	}
+	
+	.logo{
+		position:relative;
+		width:123px;
+		height:69px;
+		left:-150px;
+		display:block;
+	}
+
+	#barra_menu ul{
+		margin:auto;
+		padding:0;
+		list-style:none;
+		width:400px;
+		height:auto;
+		font:bold 13px sans-serif;
+		text-align:center;
+	}
+
+	#barra_menu ul li{
+		float: left;
+		display:inline;
+		margin-left:10px;
+	}
+	
+	#barra_menu ul li a{
+		margin: 0 auto;	
+		padding:5px;
+		display:block;
+		color:white;
+		text-decoration:none;
+		
+	}
+	
+	#barra_menu ul li:hover {
+		background:#790000;
+	}
+	
+	#barra_menu ul li img {
+	width:45px;
+	height:45px;
+	margin-top:5px;
+	}
+	
+
+/* BARRA DE SUBMENU */
+	#barra_submenu{
+		height:40px;
+		width:100%;
+		background-color:#ff8000;
+		margin-top:0px;
+		margin-left:-8px;
+	}
+
+
+/* Grupo de Funções */
+
+	#funcoes{
+	float:left;
+	width:100%;
+	
+	}
+
+
+/* OPÇÃO de WIDGET 01 */
+	#funcao01 {
+	float:left;
+	margin-top:15px;
+	background:#990000;
+	width:350px;
+	height:250px;
+	border-radius:10px;
+	}
+	
+	#titulo01{
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
+background: rgb(255,168,76); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
+	
+	border-bottom:#990000 solid;
+	width:350px;
+	height:35px;	
+	text-align:center;
+	float: left;
+	font: bold 16px sans-serif;
+	color:#570000;
+	padding-top:12px;
+	}
+	
+	#corpo01{
+	border-radius:10px;
+	background:#FFF7F7;
+	width:330px;
+	height:240px;	
+	margin-left:10px;
+	}
+		
+/* OPÇÃO de WIDGET 02 */
+	#funcao02 {
+	float:left;
+	margin-top:15px;
+	margin-left:40px;
+	background:#990000;
+	width:350px;
+	height:250px;
+	border-radius:10px;
+	}
+	
+	#titulo02{
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
+background: rgb(255,168,76); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
+	
+	border-bottom:#990000 solid;
+	width:350px;
+	height:35px;	
+	text-align:center;
+	float: left;
+	font: bold 16px sans-serif;
+	color:#570000;
+	padding-top:12px;
+	}
+	
+	#corpo02{
+	border-radius:10px;
+	background:#FFF7F7;
+	width:330px;
+	height:240px;	
+	margin-left:10px;
+	}
+	
+/* OPÇÃO de WIDGET 02 */
+	#funcao03 {
+	float:left;
+	margin-top:15px;
+	margin-left:40px;
+	background:#990000;
+	width:350px;
+	height:250px;
+	border-radius:10px;
+	}
+	
+	#titulo03{
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
+background: rgb(255,168,76); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa84c', endColorstr='#ff7b0d',GradientType=0 ); /* IE6-9 */
+	
+	border-bottom:#990000 solid;
+	width:350px;
+	height:35px;	
+	text-align:center;
+	float: left;
+	font: bold 16px sans-serif;
+	color:#570000;
+	padding-top:12px;
+	}
+	
+	#corpo03{
+	border-radius:10px;
+	background:#FFF7F7;
+	width:330px;
+	height:240px;	
+	margin-left:10px;
+	}
+		
