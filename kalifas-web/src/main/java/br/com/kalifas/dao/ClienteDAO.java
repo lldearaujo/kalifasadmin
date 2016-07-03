@@ -1,8 +1,12 @@
 package br.com.kalifas.dao;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+
 import org.springframework.stereotype.Repository;
+
 import br.com.kalifas.models.Cliente;
 
 @Repository
@@ -12,12 +16,25 @@ public class ClienteDAO {
 	private EntityManager manager;
 
 	public void save(Cliente cliente) {
-		manager.persist(cliente);
+		manager.merge(cliente);
+	}
+	
+	public void delete(Cliente cliente) {
+		manager.remove(cliente);
 	}
 
-//	public List<Product> list() {
-//		return manager.createQuery(
-//				"select distinct(p) from Product p join fetch p.prices",
-//				Product.class).getResultList();
-//	}
+	public List<Cliente> list() {
+		return manager.createQuery(
+				"select distinct(c) from Cliente c ",
+				Cliente.class).getResultList();
+	}
+	
+	public void remove(int id){
+		Cliente c = buscarPorId(id);
+		manager.remove(c);
+	}
+	
+	public Cliente buscarPorId(int id){
+		return manager.find(Cliente.class, id);
+	}
 }

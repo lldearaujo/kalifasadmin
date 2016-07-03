@@ -8,17 +8,17 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HomeController {
 	
-//	@RequestMapping(value="/", method=RequestMethod.GET)
-//	public String index(){
-//		System.out.println("passou aqui!");
-//		return "hello";
-//	}
-	
 	@RequestMapping(value="/", method=RequestMethod.GET)
-	public ModelAndView index(){
-		ModelAndView modelAndView = new ModelAndView("login");
-//		modelAndView.addObject("types", BookType.values());
-		return modelAndView;
+	public String index(){
+		
+		return "login";
 	}
+	
+//	@RequestMapping(value="/", method=RequestMethod.GET)
+//	public ModelAndView index(){
+//		ModelAndView modelAndView = new ModelAndView("login");
+////		modelAndView.addObject("types", BookType.values());
+//		return modelAndView;
+//	}
 
 }
